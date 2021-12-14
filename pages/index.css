@@ -6,6 +6,7 @@
   min-width: 320px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
   background: #2A2C2F;
 }
 
@@ -72,10 +73,104 @@
   border-bottom: 1px solid #FFFFFF;
 }
 
+.lead {
+  max-width: 984px;
+  /* Позиционирование */
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.lead__title {
+  max-width: 720px;
+  /* Позиционирование */
+  margin: 56px auto 0;
+  /* Параметры текста */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  max-width: 640px;
+  /* Позиционирование */
+  margin: 32px auto 0;
+  /* Параметры текста */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  /* Позиционирование */
+  margin: 64px auto 0;
+}
+
+.lead__caption {
+  /* Позиционирование */
+  margin: 8px 0 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  /* Параметры текста */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+
+  .lead__title {
+    margin-top: 48px;
+  }
+
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .header {
     /* Позиционирование */
     margin: 0 24px;
+  }
+
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__title {
+    max-width: 450px;
+    /* Параметры текста */
+    font-size: 65px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    max-width: 450px;
+    /* Параметры текста */
+    font-size: 26px;
+    line-height: 1.25;
   }
 }
 
@@ -95,5 +190,29 @@
     /* Параметры текста */
     font-size: 18px;
     line-height: 20px;
+  }
+
+  .lead__title {
+    max-width: 288px;
+    /* Параметры текста */
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    max-width: 288px;
+    /* Позиционирование */
+    margin-top: 16px;
+    /* Параметры текста */
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .lead__image {
+    margin-top: 40px;
+  }
+
+  .lead__caption {
+    margin-left: 16px;
   }
 }
