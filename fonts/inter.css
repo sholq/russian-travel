@@ -7,6 +7,7 @@
        url('./Inter-Thin.woff') format('woff'),
        url('./Inter-Thin.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Inter';
   font-style:  italic;
