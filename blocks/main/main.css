@@ -1,5 +1,7 @@
 .main {
-  min-width: 100%;
+  max-width: 1280px;
+  /* Позиционирование */
+  margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;
