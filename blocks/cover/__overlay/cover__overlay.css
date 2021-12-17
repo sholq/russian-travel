@@ -1,0 +1,18 @@
+.cover__overlay {
+  width: 100%;
+  height: 100%;
+  /* Позиционирование */
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* Фон */
+  opacity: 0.3;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  background: #2A2C2F;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}

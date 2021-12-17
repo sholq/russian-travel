@@ -1,0 +1,17 @@
+.lead__image {
+  width: 100%;
+  /* Позиционирование */
+  margin: 64px auto 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

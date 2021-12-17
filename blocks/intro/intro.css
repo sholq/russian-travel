@@ -1,0 +1,24 @@
+.intro {
+  max-width: 100%;
+  /* Позиционирование */
+  margin: 0;
+  padding: 0 148px 0 148px;
+}
+
+@media screen and (max-width: 1150px) {
+  .intro {
+    padding: 0 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .intro {
+    padding: 0 16px 0 16px;
+  }
+}

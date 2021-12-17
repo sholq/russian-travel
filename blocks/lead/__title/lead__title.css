@@ -1,0 +1,29 @@
+.lead__title {
+  max-width: 720px;
+  /* Позиционирование */
+  margin: 0 auto;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .lead__title {
+    max-width: 450px;
+    /* Параметры текста */
+    font-size: 65px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__title {
+    max-width: 288px;
+    /* Параметры текста */
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

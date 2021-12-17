@@ -1,0 +1,23 @@
+.cover__subtitle {
+  width: 360px;
+  /* Позиционирование */
+  margin: 32px 0 0;
+  /* Параметры текста */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+    width: 260px;
+    /* Позиционирование */
+    margin-top: 16px;
+    /* Параметры текста */
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

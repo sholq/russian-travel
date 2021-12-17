@@ -1,0 +1,13 @@
+.intro__list {
+  max-width: 690px;
+  /* Сброс параметров списка */
+  list-style: none;
+  padding: 0;
+  /* Позиционирование */
+  margin: 33px 0 0;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}

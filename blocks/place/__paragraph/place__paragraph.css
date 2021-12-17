@@ -1,0 +1,28 @@
+.place__paragraph {
+  /* Позиционирование */
+  margin: 27px 0 0;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .place__paragraph {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .place__paragraph {
+    margin: 25px 16px 0;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}

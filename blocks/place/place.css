@@ -1,0 +1,41 @@
+.place {
+  /* Позиционирование */
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 48px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  -ms-grid-columns: minmax(0, 460px) 40px minmax(0, 484px);
+  grid-template-columns: minmax(0, 460px) minmax(0, 484px);
+  grid-template-rows: repeat(auto-fit, auto);
+}
+
+@media screen and (max-width: 1150px) {
+  .place {
+    -webkit-column-gap: 32px;
+       -moz-column-gap: 32px;
+            column-gap: 32px;
+    -ms-grid-columns: minmax(0, 440px) 32px minmax(0, 456px);
+    grid-template-columns: minmax(0, 440px) minmax(0, 456px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place {
+    -webkit-column-gap: 28px;
+       -moz-column-gap: 28px;
+            column-gap: 28px;
+    -ms-grid-columns: minmax(0, 340px) 28px minmax(0, 352px);
+    grid-template-columns: minmax(0, 340px) minmax(0, 352px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .place {
+    row-gap: 32px;
+    -ms-grid-columns: 320px;
+    grid-template-columns: 320px;
+  }
+}

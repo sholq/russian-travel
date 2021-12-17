@@ -1,0 +1,11 @@
+.cover {
+  max-width: 100%;
+  /* Позиционирование */
+  padding: 0 48px 0 48px;
+}
+
+@media screen and (max-width: 1150px) {
+  .cover {
+    padding: 0;
+  }
+}

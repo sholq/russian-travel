@@ -1,0 +1,27 @@
+.place__title {
+  /* Позиционирование */
+  margin: 0;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+  .place__title {
+  font-size: 42px;
+  line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+    .place__title {
+      /* Позиционирование */
+      margin: 0 16px 0;
+      /* Параметры текста */
+      font-size: 32px;
+      line-height: 35px;
+    }
+}

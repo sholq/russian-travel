@@ -1,0 +1,15 @@
+.header__lang-links {
+  /* Сброс параметров списка */
+  list-style: none;
+  padding: 0;
+  /* Внимание на margin */
+  margin: 0 0 6px;
+  /* Позиционирование */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 18px auto;
+  grid-template-columns: auto auto;
+  -webkit-column-gap: 18px;
+     -moz-column-gap: 18px;
+          column-gap: 18px
+}

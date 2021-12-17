@@ -1,0 +1,29 @@
+.cover__title {
+  width: 560px;
+  /* Позиционирование */
+  margin: 0;
+  /* Параметры текста */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .cover__title {
+    width: 500px;
+    font-size: 65px;
+    line-height: 1.06;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cover__title {
+    width: 240px;
+    /* Параметры текста */
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

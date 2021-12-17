@@ -1,0 +1,25 @@
+.lead__caption {
+  /* Позиционирование */
+  margin: 8px 0 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 960px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}

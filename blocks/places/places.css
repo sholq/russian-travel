@@ -1,0 +1,32 @@
+.places {
+  max-width: 100%;
+  /* Позиционирование */
+  margin: 0;
+  padding: 0 148px 0 148px;
+  display: -ms-grid;
+  display: grid;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1150px) {
+  .places {
+    padding: 0 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .places {
+    padding: 0 24px 0 24px;
+    /* Позиционирование */
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .places {
+    width: 100%;
+    /* Позиционирование */
+    padding: 0;
+    gap: 50px;
+  }
+}

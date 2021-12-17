@@ -1,0 +1,31 @@
+.lead__subtitle {
+  max-width: 640px;
+  /* Позиционирование */
+  margin: 32px auto 0;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .lead__subtitle {
+    max-width: 450px;
+    /* Параметры текста */
+    font-size: 26px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__subtitle {
+    max-width: 288px;
+    /* Позиционирование */
+    margin-top: 16px;
+    /* Параметры текста */
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
