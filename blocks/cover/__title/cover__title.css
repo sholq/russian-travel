@@ -1,5 +1,5 @@
 .cover__title {
-  width: 560px;
+  max-width: 560px;
   /* Позиционирование */
   margin: 0;
   /* Параметры текста */
@@ -13,7 +13,8 @@
 
 @media screen and (max-width: 700px) {
   .cover__title {
-    width: 500px;
+    max-width: 500px;
+    /* Параметры текста */
     font-size: 65px;
     line-height: 1.06;
   }
@@ -21,7 +22,7 @@
 
 @media screen and (max-width: 520px) {
   .cover__title {
-    width: 240px;
+    max-width: 240px;
     /* Параметры текста */
     font-size: 32px;
     line-height: 1.09;

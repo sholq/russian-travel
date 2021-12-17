@@ -1,4 +1,7 @@
 .cover__text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   /* Позиционирование */
   display: -webkit-box;
   display: -ms-flexbox;

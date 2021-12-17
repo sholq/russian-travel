@@ -1,5 +1,5 @@
 .cover__subtitle {
-  width: 360px;
+  max-width: 360px;
   /* Позиционирование */
   margin: 32px 0 0;
   /* Параметры текста */
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 520px) {
   .cover__subtitle {
-    width: 260px;
+    max-width: 260px;
     /* Позиционирование */
     margin-top: 16px;
     /* Параметры текста */

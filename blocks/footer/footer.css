@@ -1,6 +1,8 @@
 .footer {
-  max-width: 100%;
+  width: 100%;
   /* Позиционирование */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 92px 48px 24px 48px;
   display: -ms-grid;
   display: grid;
