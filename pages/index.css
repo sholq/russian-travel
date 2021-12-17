@@ -400,7 +400,7 @@
   left: 0;
   top: 0;
   /* Фон */
-  opacity: 0.4;
+  opacity: 0.3;
   -webkit-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
@@ -408,7 +408,81 @@
 }
 
 .cover__overlay:hover, .cover__text:hover + .cover__overlay {
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+.footer {
+  padding: 0 48px 24px 48px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto -webkit-max-content;
+  -ms-grid-columns: auto max-content;
+  grid-template-columns: auto -webkit-max-content;
+  grid-template-columns: auto max-content;
+  row-gap: 48px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main__footer {
+  margin-top: 92px;
+}
+
+.footer__links {
+  /* Сброс параметров списка */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Позиционирование */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: -webkit-max-content 18px -webkit-max-content 18px -webkit-max-content 18px -webkit-max-content 18px -webkit-max-content;
+  -ms-grid-columns: max-content 18px max-content 18px max-content 18px max-content 18px max-content;
+  grid-template-columns: repeat(5, -webkit-max-content);
+  grid-template-columns: repeat(5, max-content);
+  gap: 32px 18px;
+}
+
+.footer__link {
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  text-decoration: none;
+  color: #FFFFFF;
+  /* Анимиция наведения */
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  /* Параметры текста */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #FFFFFF;
+  /* Анимиция наведения */
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.footer__copyright:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1150px) {
@@ -509,6 +583,14 @@
     margin-top: 25px;
     font-size: 16px;
   }
+
+  .footer {
+    padding: 0 24px 24px 24px;
+  }
+
+  .main__footer {
+    margin-top: 88px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -524,6 +606,17 @@
     /* Параметры текста */
     font-size: 26px;
     line-height: 1.25;
+  }
+
+  .cover__title {
+    width: 500px;
+    font-size: 65px;
+    line-height: 1.06;
+  }
+
+  .footer {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
   }
 }
 
@@ -637,5 +730,28 @@
     /* Параметры текста */
     font-size: 14px;
     line-height: 1.14;
+  }
+
+  .footer {
+    padding: 0 16px 24px 16px;
+  }
+
+  .main__footer {
+    margin-top: 64px;
+  }
+
+  .footer__links {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
   }
 }
