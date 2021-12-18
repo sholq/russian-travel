@@ -11,5 +11,5 @@
   grid-template-columns: auto auto;
   -webkit-column-gap: 18px;
      -moz-column-gap: 18px;
-          column-gap: 18px
+          column-gap: 18px;
 }
