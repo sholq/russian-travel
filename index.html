@@ -10,7 +10,7 @@
   <div class="page">
 
     <header class="header">
-      <img src="./image/header-logo.svg" alt="Карта России">
+      <img class="header__logo" src="./image/header-logo.svg" alt="Карта России">
       <ul class="header__lang-links">
         <li>
           <a class="header__lang-link header__lang-link_active" href="https://sholq.github.io/russian-travel/">Ru</a>
@@ -25,8 +25,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./image/lead-polka.jpg" alt="Женщина спит на боковой полке плацкартного вагона">
-        <p class="lead__caption">Ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img class="lead__image" src="./image/lead-polka.jpg" alt="Женщина спит на боковой полке плацкартного вагона">
+          <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -38,30 +40,56 @@
           в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__item"><b>Часовых поясов</b> 11</li>
-          <li class="intro__item"><b>Объектов природного наследия ЮНЕСКО</b> 12</li>
-          <li class="intro__item"><b>Объектов культурного наследия ЮНЕСКО</b> 16</li>
-          <li class="intro__item"><b>Природных заповедников</b> 105</li>
-          <li class="intro__item"><b>Аэропортов</b> 241</li>
+          <li class="intro__item"><span class="intro__bold">Часовых поясов</span> 11</li>
+          <li class="intro__item"><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__item"><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__item"><span class="intro__bold">Природных заповедников</span> 105</li>
+          <li class="intro__item"><span class="intro__bold">Аэропортов</span> 241</li>
         </ul>
       </section>
 
-      <div class="photo-grid">
-        <img class="photo-grid__item" src="./image/photo-grid-train.jpg" alt="Вид из салона пассажирского поезда">
-        <img class="photo-grid__item" src="./image/photo-grid-atharva-tulsi.jpg" alt="Горы">
-        <img class="photo-grid__item" src="./image/photo-grid-tuman.jpg" alt="Утренний туман в поле с овчаркой на стоге сена">
-        <img class="photo-grid__item" src="./image/photo-grid-sochi.jpg" alt="Горные леса Сочи в тумане">
-        <img class="photo-grid__item" src="./image/photo-grid-arisa.jpg" alt="Машина на льду озера Байкал">
-        <img class="photo-grid__item" src="./image/photo-grid-baikal.jpg" alt="Пляж на побережье байкала">
-        <img class="photo-grid__item" src="./image/photo-grid-elbrus.jpg" alt="Вершины Эльбруса">
-        <img class="photo-grid__item" src="./image/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода на фоне волнорезов">
-        <img class="photo-grid__item" src="./image/photo-grid-kamchatka-1.jpg" alt="Рельефы Камчатки">
-        <img class="photo-grid__item" src="./image/photo-grid-kamchatka-2.jpg" alt="Гора на Камчатке">
-        <img class="photo-grid__item" src="./image/photo-grid-baikal-2.jpg" alt="Рельефы на побережье Байкала">
-        <img class="photo-grid__item" src="./image/photo-grid-ergaki.jpg" alt="Вершины Ергаки в тумане">
-      </div>
+      <section class="photo-grid">
+        <ul class="photo-grid__list">
+          <li class="photo-grid__item">
+            <img class="photo-grid__item" src="./image/photo-grid-train.jpg" alt="Вид из салона пассажирского поезда">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-atharva-tulsi.jpg" alt="Горы">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-tuman.jpg" alt="Утренний туман в поле с овчаркой на стоге сена">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-sochi.jpg" alt="Горные леса Сочи в тумане">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-arisa.jpg" alt="Машина на льду озера Байкал">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-baikal.jpg" alt="Пляж на побережье байкала">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-elbrus.jpg" alt="Вершины Эльбруса">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода на фоне волнорезов">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-kamchatka-1.jpg" alt="Рельефы Камчатки">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-kamchatka-2.jpg" alt="Гора на Камчатке">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-baikal-2.jpg" alt="Рельефы на побережье Байкала">
+          </li>
+          <li>
+            <img class="photo-grid__item" src="./image/photo-grid-ergaki.jpg" alt="Вершины Ергаки в тумане">
+          </li>
+        </ul>
+      </section>
 
-      <div class="places">
+      <section class="places">
         <article class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
@@ -146,37 +174,36 @@
             </p>
           </div>
         </article>
-      </div>
+      </section>
 
       <section class="cover">
-        <div class="cover__container">
-          <a class="cover__text" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </a>
-          <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
-        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li>
-          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        </li>
-        <li>
-          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        </li>
-        <li>
-          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        </li>
-        <li>
-          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        </li>
-        <li>
-          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
       <a class="footer__copyright" href="https://www.instagram.com/redjews/" target="_blank">© 2021. Силкин Семён</a>
     </footer>
   </div>

@@ -1,10 +1,9 @@
 .places {
-  width: 100%;
+  max-width:  calc(100% - 148px * 2);
   /* Позиционирование */
+  margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0;
-  padding: 0 148px 0 148px;
   display: -ms-grid;
   display: grid;
   gap: 80px;
@@ -12,7 +11,12 @@
 
 @media screen and (max-width: 1150px) {
   .places {
+    max-width: 100%;
+    /* Позиционирование */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 48px 0 48px;
+    margin: 0;
   }
 }
 
@@ -26,8 +30,6 @@
 
 @media screen and (max-width: 520px) {
   .places {
-    width: 100%;
-    /* Позиционирование */
     padding: 0;
     gap: 50px;
   }

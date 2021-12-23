@@ -1,15 +1,17 @@
 .intro {
-  width: 100%;
+  width: calc(100% - 148px * 2);
   /* Позиционирование */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0 148px 0 148px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1150px) {
   .intro {
+    width: 100%;
+    /* Позиционирование */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 48px 0 48px;
+    margin: 0;
   }
 }
 

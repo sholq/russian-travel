@@ -1,10 +1,7 @@
 .lead {
-  width: 100%;
+  max-width:  calc(100% - 148px * 2);
   /* Позиционирование */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0 148px 0 148px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,13 +13,17 @@
 
 @media screen and (max-width: 1150px) {
   .lead {
+    max-width: 100%;
+    /* Позиционирование */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 48px 0 48px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 960px) {
   .lead {
-    width: 100%;
     padding: 0;
   }
 }

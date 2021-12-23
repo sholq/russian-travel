@@ -3,12 +3,12 @@
   /* Позиционирование */
   margin: 32px 0 0;
   /* Параметры текста */
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
+  z-index: 1;
 }
 
 @media screen and (max-width: 520px) {

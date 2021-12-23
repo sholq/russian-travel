@@ -1,0 +1,66 @@
+.cover__link {
+  width: 100%;
+  min-height: 740px;
+  /* Позиционирование */
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Параметры текста */
+  color: #FFFFFF;
+  text-decoration: none;
+  /* Фон */
+  background-image: url(../../../image/cover-trains.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__link:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  /* Позиционирование */
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* Фон */
+  opacity: 0.3;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  background: #2A2C2F;
+}
+
+.cover__link:hover:before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1150px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
