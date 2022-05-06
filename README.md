@@ -1,9 +1,6 @@
-# Проект: Путешествие по России (завершён)
+# Проект: Путешествие по России
 
-### Обзор
-* Описание
-* Технологии
-* GitPages
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
 **Описание**
 
@@ -11,12 +8,10 @@
 
 **Технологии**
 
-HTML / CSS
+<img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
 
-Основной технологией проекта являются Grid Layout и медиазапросы, также была выполнена оптимизация изображений, браузер выполняет оптимизацию шрифтов под устройства с различными разрешениями.
-
-Исходный макет был размещен в Figma.
+Основной технологией проекта являются Grid Layout и медиазапросы.
 
 **GitPages**
 
-Ссылка: https://sholq.github.io/russian-travel/
+[Ссылка](https://sholq.github.io/russian-travel/)
